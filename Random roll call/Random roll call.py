@@ -107,7 +107,7 @@ def CreateFile():
 #***********************************************************************************************#
 #用单选按钮来进行选择
 Format = StringVar()
-radio1 = tk.Radiobutton(root,text='xlsw格式',variable=Format,value='xlsx',font=("微软雅黑",12))
+radio1 = tk.Radiobutton(root,text='xlsx格式',variable=Format,value='xlsx',font=("微软雅黑",12))
 radio1.place(x='50',y='80')
 radio1.select() #默认选中的单选框
 
